@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: sample.atmosphere.SampleAtmosphereApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.649 s <<< FAILURE! - in sample.atmosphere.SampleAtmosphereApplicationTests
+chatEndpoint  Time elapsed: 0.281 s  <<< ERROR!
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at sample.atmosphere.SampleAtmosphereApplicationTests.chatEndpoint(SampleAtmosphereApplicationTests.java:66)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at sample.atmosphere.SampleAtmosphereApplicationTests.chatEndpoint(SampleAtmosphereApplicationTests.java:66)
+
